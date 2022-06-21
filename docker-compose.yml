@@ -16,7 +16,7 @@ services:
       - 'gitlab-logs:/var/log/gitlab'
       - 'gitlab-data:/var/opt/gitlab'
   jenkins:
-    image: 'jenkins'
+    image: 'jenkins/jenkins'
     # build:
     #   context: .
     #   dockerfile: Dockerfile.jenkins
